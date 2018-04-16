@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="31" started-at="2018-02-02T03:47:33Z" finished-at="2018-02-02T03:47:33Z">
+    <groups>
+    </groups>
+    <test name="selenium" duration-ms="31" started-at="2018-02-02T03:47:33Z" finished-at="2018-02-02T03:47:33Z">
+      <class name="testgroup.testartifact.TestAssert">
+        <test-method status="PASS" signature="tesetbd()[pri:0, instance:testgroup.testartifact.TestAssert@7ac7a4e4]" name="tesetbd" is-config="true" duration-ms="16" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesetbd -->
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:testgroup.testartifact.TestAssert@7ac7a4e4]" name="testBefore" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="tesetbd()[pri:0, instance:testgroup.testartifact.TestAssert2@6ea12c19]" name="tesetbd" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesetbd -->
+        <test-method status="PASS" signature="testbefor()[pri:0, instance:testgroup.testartifact.TestAssert@7ac7a4e4]" name="testbefor" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefor -->
+        <test-method status="PASS" signature="testAfterClass()[pri:0, instance:testgroup.testartifact.TestAssert@7ac7a4e4]" name="testAfterClass" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterClass -->
+        <test-method status="FAIL" signature="testAssert()[pri:0, instance:testgroup.testartifact.TestAssert@7ac7a4e4]" name="testAssert" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at testgroup.testartifact.TestAssert.testAssert(TestAssert.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssert -->
+      </class> <!-- testgroup.testartifact.TestAssert -->
+      <class name="testgroup.testartifact.TestAssert2">
+        <test-method status="PASS" signature="testbefor()[pri:0, instance:testgroup.testartifact.TestAssert2@6ea12c19]" name="testbefor" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefor -->
+        <test-method status="FAIL" signature="testAssert()[pri:0, instance:testgroup.testartifact.TestAssert2@6ea12c19]" name="testAssert" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at testgroup.testartifact.TestAssert2.testAssert(TestAssert2.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssert -->
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:testgroup.testartifact.TestAssert2@6ea12c19]" name="testBefore" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="testAfterClass()[pri:0, instance:testgroup.testartifact.TestAssert2@6ea12c19]" name="testAfterClass" is-config="true" duration-ms="0" started-at="2018-02-02T11:47:33Z" finished-at="2018-02-02T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterClass -->
+      </class> <!-- testgroup.testartifact.TestAssert2 -->
+    </test> <!-- selenium -->
+  </suite> <!-- TestAll -->
+</testng-results>
